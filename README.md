@@ -1,12 +1,58 @@
-# React + Vite
+# React Todo List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant Todo List application built with React. This project allows users to manage their tasks with features for adding, editing, and deleting todos.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new todo items
+- Edit existing todos
+- Delete todos
+- Persistent storage using localStorage
+- Clean and responsive UI
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- HTML/CSS
+- Local Storage API
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/nicosilvy/reactjs-todolist.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd reactjs-todolist
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173`
+
+## Usage
+
+- Type a task in the input field and click "Add" to create a new todo
+- Click the pencil icon to edit a todo
+- Click the trash can icon to delete a todo
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
